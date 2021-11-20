@@ -1,0 +1,37 @@
+{
+    "name": "sdon2/odoo-api-laravel",
+    "version": "0.1",
+    "description": "Laravel Odoo XML-RPC Client using Ripcord",
+    "keywords": [
+        "php",
+        "laravel-odoo",
+        "laravel-odoo-xmlrpc",
+        "laravel-odoo-xmlrpc-client"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saravanakumar Arumugam",
+            "email": "saravanakumar.a.o@gmail.com",
+            "homepage": "https://github.com/sdon2"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OdooAPILaravel\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "^5.8|^6.0|^7.0|^8.0",
+        "sdon2/odoo-api": "dev-master"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OdooAPILaravel\\OdooAPIServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
