@@ -1,6 +1,6 @@
 {
     "name": "sdon2/odoo-api-laravel",
-    "version": "0.1",
+    "version": "1.0.0",
     "description": "Laravel Odoo XML-RPC Client using Ripcord",
     "keywords": [
         "php",
@@ -23,7 +23,7 @@
     },
     "require": {
         "illuminate/support": "^5.8|^6.0|^7.0|^8.0",
-        "sdon2/odoo-api": "dev-master"
+        "sdon2/odoo-api": "^1.0"
     },
     "extra": {
         "laravel": {
@@ -31,7 +31,5 @@
                 "OdooAPILaravel\\OdooAPIServiceProvider"
             ]
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }

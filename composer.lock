@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "877326012c82f3b304a83440e03b5ac6",
+    "content-hash": "e96b946b3692e485d3977f94d94f0c63",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -99,7 +99,7 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v8.73.0",
+            "version": "v8.73.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
@@ -153,7 +153,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v8.73.0",
+            "version": "v8.73.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -201,7 +201,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v8.73.0",
+            "version": "v8.73.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -247,7 +247,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v8.73.0",
+            "version": "v8.73.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -509,22 +509,21 @@
         },
         {
             "name": "sdon2/odoo-api",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sdon2/odoo-api.git",
-                "reference": "97e18dab16c7920e98aff8b10a6fd763369cf970"
+                "reference": "d022f4825266da1a37bc7a9ab243e4c51a611e34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sdon2/odoo-api/zipball/97e18dab16c7920e98aff8b10a6fd763369cf970",
-                "reference": "97e18dab16c7920e98aff8b10a6fd763369cf970",
+                "url": "https://api.github.com/repos/sdon2/odoo-api/zipball/d022f4825266da1a37bc7a9ab243e4c51a611e34",
+                "reference": "d022f4825266da1a37bc7a9ab243e4c51a611e34",
                 "shasum": ""
             },
             "require": {
-                "sdon2/ripcord": "dev-master"
+                "sdon2/ripcord": "^1.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -551,25 +550,24 @@
             ],
             "support": {
                 "issues": "https://github.com/sdon2/odoo-api/issues",
-                "source": "https://github.com/sdon2/odoo-api/tree/master"
+                "source": "https://github.com/sdon2/odoo-api/tree/v1.0.0"
             },
-            "time": "2021-11-20T07:54:43+00:00"
+            "time": "2021-11-22T04:26:30+00:00"
         },
         {
             "name": "sdon2/ripcord",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sdon2/ripcord.git",
-                "reference": "a2fac53dfaa2a1593911a62d8658e963058509b7"
+                "reference": "0e71148e258d4d0298c0a7a45795c54527e18f1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sdon2/ripcord/zipball/a2fac53dfaa2a1593911a62d8658e963058509b7",
-                "reference": "a2fac53dfaa2a1593911a62d8658e963058509b7",
+                "url": "https://api.github.com/repos/sdon2/ripcord/zipball/0e71148e258d4d0298c0a7a45795c54527e18f1b",
+                "reference": "0e71148e258d4d0298c0a7a45795c54527e18f1b",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -595,9 +593,9 @@
             ],
             "support": {
                 "issues": "https://github.com/sdon2/ripcord/issues",
-                "source": "https://github.com/sdon2/ripcord/tree/master"
+                "source": "https://github.com/sdon2/ripcord/tree/v1.0.0"
             },
-            "time": "2021-11-20T04:25:09+00:00"
+            "time": "2021-11-22T04:13:47+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -1079,11 +1077,9 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "sdon2/odoo-api": 20
-    },
-    "prefer-stable": true,
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
